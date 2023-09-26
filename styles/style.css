@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  margin: 0 auto;
   padding-inline: 10px;
   font-family: var(--main-font, sans-serif);
   font-size: 18px;
@@ -18,8 +18,8 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
-  block-size: 100vh;
   padding-block: 10px;
+  block-size: 100vh;
   min-block-size: 668px;
 }
 
@@ -203,9 +203,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-block: 10px;
   block-size: 100vh;
   min-block-size: 668px;
-  padding-block: 10px;
 }
 
 .footer__title {
