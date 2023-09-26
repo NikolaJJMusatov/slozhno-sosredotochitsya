@@ -134,7 +134,7 @@
   background-color: var(--accent-color, #ff0070);
 }
 
-main {
+.main {
   display: grid;
   gap: 50px;
   margin-block: 40px;
