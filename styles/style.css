@@ -19,6 +19,7 @@
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
   block-size: 100vh;
+  padding-block: 10px;
   min-block-size: 668px;
 }
 
@@ -204,6 +205,7 @@ main {
   align-items: center;
   block-size: 100vh;
   min-block-size: 668px;
+  padding-block: 10px;
 }
 
 .footer__title {
@@ -213,6 +215,10 @@ main {
 @media (min-width: 768px) {
   .page {
     padding-inline: 20px;
+  }
+
+  .header {
+    padding-block: 20px;
   }
   
   .decorated-zone::before {
@@ -296,6 +302,10 @@ main {
     grid-row-end: span 1;
   }
 
+  .footer {
+    padding-block: 20px;
+  }
+
   .footer__title {
     margin-inline-start: 0;
   }
@@ -305,12 +315,15 @@ main {
   .header__theme-menu {
     justify-self: center;
     align-self: flex-start;
-    margin-block-start: 20px;
   }
   
   .header__theme-menu-list {
     flex-direction: row;
     gap: 11px;
+  }
+
+  .header__title {
+    text-shadow: 4px 4px 0 var(--main-title-shadow-hard, #ff0070);
   }
 
   .content:nth-child(2) .content__card {

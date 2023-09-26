@@ -17,6 +17,7 @@
   --text-color-main-title: #ffc2e6;
   --background-color: #fff1f7;
   --text-color-title: #353430;
+  --main-title-shadow: #ff8dcb;
   --border-color: #353430;
   --background-image: url(../images/cover-image-light.png);
 
@@ -37,6 +38,7 @@
     --text-color-main-title: #ffc2e6;
     --background-color: #fff1f7;
     --text-color-title: #353430;
+    --main-title-shadow: #ff8dcb;
     --border-color: #353430;
     --background-image: url(../images/cover-image-light.png);
   }

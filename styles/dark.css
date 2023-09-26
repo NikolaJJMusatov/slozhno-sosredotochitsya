@@ -18,6 +18,7 @@
   --text-color-title: #000028;
   --background-color: #000028;
   --main-title-shadow:#ff0070;
+  --main-title-shadow-hard:#ff0070;
   --border-color: #ff0070;
   --background-image: url(../images/cover-image-dark.png);
 }
@@ -30,6 +31,7 @@
     --text-color-title: #000028;
     --background-color: #000028;
     --main-title-shadow:#ff0070;
+    --main-title-shadow-hard:#ff0070;
     --border-color: #ff0070;
     --background-image: url(../images/cover-image-dark.png);
   }
